@@ -11,9 +11,9 @@ class Discover extends Component {
   };
 
   // When the component mounts, load the next dog to be displayed
-  componentDidMount() {
-    this.loadNextDog();
-  }
+  // componentDidMount() {
+  //   this.loadNextDog();
+  // }
 
   handleBtnClick = event => {
     // Get the data-value of the clicked button
