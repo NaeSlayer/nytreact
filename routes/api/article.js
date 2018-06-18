@@ -10,8 +10,10 @@ router.route("/api/articles")
   .delete(articleController.remove);
 
 // Matches with "/*"
-router.route("/*")
-  .get(articleController.findAll)
+// router.route("/*")
+//   .get("*", (req, res) => {
+//     res.sendFile(path.join(__dirname, "./client/build/index.html"));
+//   });
 
 
 module.exports = router;
