@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="/">
-      NYT React App
+      <img src="./assets/images/nytimes.png" />
     </Link>
     <div>
       <ul className="navbar-nav">
@@ -44,7 +44,14 @@ const Navbar = props => (
             Saved
           </Link>
         </li>
+        {/* <li className="ml-auto">
+          <img src="./assets/images/nytimes.png" />
+        </li> */}
       </ul>
+      {/* <div>
+        <img className="d-flex justify-content-end" src="./assets/images/nytimes.png" />
+      </div> */}
+
     </div>
   </nav>
 );
