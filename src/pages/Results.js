@@ -3,7 +3,7 @@ import API from "../utils/API";
 import Card from "../components/Card";
 import Alert from "../components/Alert";
 
-class Discover extends Component {
+class Results extends Component {
   state = {
     image: "",
     match: false,
@@ -69,4 +69,4 @@ class Discover extends Component {
   }
 }
 
-export default Discover;
+export default Results; 
